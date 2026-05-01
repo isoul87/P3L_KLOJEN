@@ -16,7 +16,7 @@ export default function AboutGroup({id}: {id: string}) {
             
             <div className="rounded-2xl overflow-hidden shadow-xl bg-slate-200 aspect-[4/5] md:aspect-square">
               <img 
-                src="/fotopenyiaran/Kelurahan.jpeg" 
+                src="/fotopenyiaran/kelurahan.jpeg" 
                 alt="Kelompok 02 PPL" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />
