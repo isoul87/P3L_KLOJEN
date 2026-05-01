@@ -23,7 +23,7 @@ export default function Navbar() {
           <a
             key={link.name}
             href={link.href}
-            className="flex items-center gap-2 px-3 py-2 rounded-xl text-slate-600 hover:text-emerald-600 hover:bg-emerald-50 transition-all duration-300 group"
+            className="flex items-center gap-2 px-3 py-2 rounded-xl text-slate-600 hover:text-emerald-600 hover:bg-emerald-50 active:scale-90  transition-all duration-300 group"
           >
             <span className="group-hover:scale-110 transition-transform">{link.icon}</span>
             <span className="text-xs font-bold uppercase tracking-wider hidden md:block">
