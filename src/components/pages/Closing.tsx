@@ -43,7 +43,7 @@ export default function ClosingSection({id}: {id: string}) {
             <div className="p-3 rounded-full border border-slate-700 group-hover:border-emerald-400">
               <Globe size={20} />
             </div>
-            <span className="text-sm font-medium">nuxztech</span>
+            <span className="text-sm font-medium">Culture Code</span>
           </a>
           <a 
             href="https://www.instagram.com/p3l_klojen/" // Ganti dengan link IG PPL kalian
@@ -66,7 +66,7 @@ export default function ClosingSection({id}: {id: string}) {
             PPL 2026 • Kecamatan Klojen
           </p>
           <p className="text-[10px] text-slate-600 mt-2 tracking-widest uppercase">
-            Developed by Naufal (nuxztech)
+            Developed by Culture Code
           </p>
         </div>
 

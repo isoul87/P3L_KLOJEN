@@ -1,11 +1,9 @@
 'use client';
-
-import React from 'react';
 import Image from 'next/image';
 
 export default function Header() {
   return (
-    <header className="fixed top-0 backdrop-blur-lg left-0 w-full z-[90] px-6 py-2 pointer-events-none">
+    <header className="fixed top-0 backdrop-blur-lg left-0 w-full z-[90] px-6 py-1 pointer-events-none">
       <div className="container mx-auto flex justify-between items-center">
         
         {/* KIRI: LOGO */}

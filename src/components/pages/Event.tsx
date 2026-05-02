@@ -34,7 +34,7 @@ export default function Timeline({id}: {id: string}) {
     },
     {
       date: "22 April 2026",
-      title: "Penyiaran dan Mujadah Usbuiyah di Kel. Kidul Dalam",
+      title: "Penyiaran dan Mujadah Usbuiyah di Kel. Samaan",
       desc: "Penyiaran di daerah Oro - Oro Dowo, serta mujadah awal bulan di Kelurahan Samaan",
       images: ["/fotopenyiaran/orodowo.jpeg", "/fotopenyiaran/awalbulan.jpeg"]
     },

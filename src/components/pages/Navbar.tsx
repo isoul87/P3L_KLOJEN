@@ -11,12 +11,13 @@ const navLinks = [
   { name: 'Thanks', href: '#thanks', icon: <Heart size={18} /> },
 ];
 
-export default function Navbar() {
+export default function Navbar({ startAnim }: {startAnim: boolean }) {
   return (
     <nav className="fixed bottom-6 left-1/2 -translate-x-1/2 z-[100] w-fit">
       <motion.div 
         initial={{ y: 100, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
+        animate={startAnim ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+        transition={{ duration: 0.8 }}
         className="flex items-center gap-2 px-4 py-3 bg-white/70 backdrop-blur-xl border border-white/20 rounded-2xl shadow-2xl shadow-emerald-900/10"
       >
         {navLinks.map((link) => (

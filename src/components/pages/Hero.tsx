@@ -32,7 +32,7 @@ export default function Hero({id}: {id: string}) {
             Eksplorasi <br />
             <span className="text-emerald-600">
               <TextType 
-                text={["Kelompok 02", "Dunia Penyiaran", "Karya Nyata"]} 
+                text={["Kelompok 02", "Praktek Nyata", "Karya Nyata", "Kerja Nyata"]} 
                 typingSpeed={70} 
                 pauseDuration={1500}
                 showCursor={true}
@@ -46,12 +46,16 @@ export default function Hero({id}: {id: string}) {
 
           {/* Tombol jadi full width di mobile (flex-col), tetap row di desktop */}
           <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+            <a href="#events">
             <Button className="bg-emerald-600 hover:bg-emerald-700 h-12 px-8 rounded-xl transition-all hover:gap-3 w-full sm:w-auto">
               Lihat Aktivitas <MoveRight className="ml-2 h-4 w-4" />
             </Button>
+            </a>
+            <a href="#members">
             <Button variant="outline" className="h-12 px-8 rounded-xl border-emerald-600 text-emerald-600 hover:bg-emerald-50 w-full sm:w-auto">
               <Users className="mr-2 h-4 w-4" /> Profil Kru
             </Button>
+            </a>
           </div>
         </div>
 
